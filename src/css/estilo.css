@@ -163,6 +163,7 @@ a:hover{
 #produtos{
     display: grid;
     margin-top: 15px;
+    justify-content: center;
     
 }
 
@@ -311,7 +312,7 @@ article p{
         transition: .5s;
     }
     header h1{
-        font-size: 2.1rem;
+        font-size: 1.4rem;
         margin-right: 5px;
     }
 
@@ -319,9 +320,13 @@ article p{
         margin: 0 auto;
         font-size: 1.2rem;
     }
+    
     #produtos{
-        display: flex;
+        display: block;
         flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+
     }
     
     .logo{
@@ -351,7 +356,14 @@ article p{
     .hamburguer.active .barra:last-child {
         transform: translateY(-8px) rotate(-360deg) rotate(-45deg);
     } 
+
+
+.footer-content{
+    text-align: center;
+    max-width: 100%;
     
+    flex-direction: column;
+}
   .footer-container{
   text-align: center;
   max-width: 100%;

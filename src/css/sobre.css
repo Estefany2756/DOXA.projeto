@@ -334,10 +334,14 @@ a:hover{
         transform: translateY(-8px) rotate(-360deg) rotate(-45deg);
     } 
 
-    .retornar{
+    .footer-content{
         text-align: center;
+        max-width: 100%;
 
+    
+        flex-direction: column;
     }
+
   .footer-container{
   text-align: center;
   max-width: 100%;
