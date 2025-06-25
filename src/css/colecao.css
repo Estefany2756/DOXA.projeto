@@ -357,7 +357,7 @@ article p{
 
     /* Primeira linha */
     .hamburguer.active .barra:first-child {
-        transform: translateY(8px) rotate(360deg) rotate(45deg);
+        transform: translateY(13px) rotate(360deg) rotate(45deg);
     }
     /* Segunda linha */
     .hamburguer.active .barra:nth-child(2) {
@@ -365,7 +365,7 @@ article p{
     }
     /* Terceira linha */
     .hamburguer.active .barra:last-child {
-        transform: translateY(-8px) rotate(-360deg) rotate(-45deg);
+        transform: translateY(-13px) rotate(-360deg) rotate(-45deg);
     } 
 
     
