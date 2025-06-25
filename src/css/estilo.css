@@ -208,11 +208,13 @@ article p{
 
 
 }
+
 .footer-content{
-    display: flex;
+   
+    display: inline-flex;
     justify-content: space-around;
-    max-width: 100%;
-    margin-top: 10px;
+    width: 50%;
+    margin-left: 40px;
     color: #f1f1f1;
     font-size: 17px;
 }
@@ -268,6 +270,7 @@ article p{
 
 
 }
+
 
 .footer-container{
     display: flex;
@@ -359,12 +362,13 @@ article p{
     } 
 
 
-.footer-content{
-    text-align: center;
-    max-width: 100%;
-    
-    flex-direction: column;
-}
+ .footer-content{
+        text-align: center;
+        width: 100%;
+        margin-left: 20px;
+        align-items: center;
+        flex-direction: column;
+    }
   .footer-container{
   text-align: center;
   max-width: 100%;
