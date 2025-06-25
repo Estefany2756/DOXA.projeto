@@ -1,5 +1,3 @@
-/* reset basico slk */
-
 *{
     margin: 0;
     padding: 0;
@@ -54,6 +52,7 @@ nav ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 
 }
 
@@ -159,11 +158,24 @@ a:hover{
     right: 20px;
     padding: 0,5px;
 }
+.descricao span{
+    color:#e0be5f;
+}
+.descricao{
+    padding: 0px;
+    text-align: center;
+    color:#f1f1f1;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
 
 #produtos{
-    display: grid;
-    margin-top: 15px;
     
+    display: grid;
+    justify-content:center ;
+    margin-bottom: 170px;
 }
 
 main{
@@ -211,7 +223,7 @@ article p{
     display: flex;
     justify-content: space-around;
     max-width: 100%;
-    margin-top: 10px;
+    margin-top: -150px;
     color: #f1f1f1;
     font-size: 17px;
 }
@@ -250,7 +262,7 @@ article p{
     border: 2px solid   #f7d372  ;
     text-align: center;
     padding: 2%;
-    margin: 2%;
+    margin:2%;
 
 }
 
@@ -267,6 +279,7 @@ article p{
 
 }
 
+
 .footer-container{
     display: flex;
     text-align: center;
@@ -280,7 +293,6 @@ article p{
 }
 .tituf{
     text-align: center;
-
     
 
 }
@@ -351,7 +363,11 @@ article p{
     .hamburguer.active .barra:last-child {
         transform: translateY(-8px) rotate(-360deg) rotate(-45deg);
     } 
-    
+
+    .retornar{
+        text-align: center;
+
+    }
   .footer-container{
   text-align: center;
   max-width: 100%;
